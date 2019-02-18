@@ -18,3 +18,8 @@ function deleteFromObjectByKey(object,key){
   delete dupe[key]
   return dupe
 }
+
+function destructivelyDeleteFromObjectByKey(object,key){
+  delete object[key]
+  return object
+}
